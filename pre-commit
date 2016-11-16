@@ -7,7 +7,7 @@
 # pre-commit hooks to be executed. They should be in the same .git/hooks/pre-commit.d
 # folder. Hooks should return 0 if successful and nonzero to cancel the
 # commit. They are executed in the order in which they are listed.
-HOOKS="pre-commit.d/phpcs-pre-commit"
+HOOKS="pre-commit.d/phplint-pre-commit pre-commit.d/phpcs-pre-commit"
 ###########################################################
 # There should be no need to change anything below this line.
 

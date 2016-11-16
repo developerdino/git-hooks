@@ -52,6 +52,7 @@ if [ -d ".git" ] ; then
     cp -f -- "$SCRIPT_PATH/canonicalize_filename.sh" ".git/hooks/" || true
     cp -f -- "$SCRIPT_PATH/pre-commit" ".git/hooks/" || true
     copy_hooks ".git"
+    chmod +x ".git/hooks/pre-commit"
 else
     echo "Error: .git does not exist."
     echo "Are you sure `pwd` is the root directory of your local git repository?"

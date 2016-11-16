@@ -1,0 +1,5 @@
+# path to php "binary"
+PHPLINT_BIN=`which php`
+
+# egrep compatible pattern of files to be checked
+PHPLINT_FILE_PATTERN="\.(php)$"
