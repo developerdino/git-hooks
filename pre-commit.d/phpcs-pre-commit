@@ -11,7 +11,7 @@
 
 PHPCS_BIN=./vendor/bin/phpcs
 PHPCS_CODING_STANDARD=PSR2
-PHPCS_IGNORE=
+PHPCS_IGNORE="*/database/migrations/*,*/database/seeds/*"
 PHPCS_SNIFFS=
 PHPCS_ENCODING=utf-8
 PHPCS_IGNORE_WARNINGS=0
